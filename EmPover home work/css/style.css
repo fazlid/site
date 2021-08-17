@@ -1,0 +1,474 @@
+@import './roboto/stylesheet';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  :root {
+    --rob: 'Roboto';
+   
+  }
+
+  body {
+      background: #E5E5E5;;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .j-content-between {
+    justify-content: space-between;
+  }
+  
+  .j-content-center {
+    justify-content: center;
+  }
+  
+  .a-items-center {
+    align-items: center;
+  }
+  
+  .f-direction-column {
+    flex-direction: column;
+  }
+
+  .j-content-space-around {
+      justify-content: space-around;
+  }
+
+  .f-wrap {
+      flex-wrap: wrap;
+  }
+  
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  
+  }
+
+  .header {
+      background-image: url(../img/header__img.png);
+      min-height: 903px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center ;
+     
+  }
+
+  .header__nav {
+      height: 104px;
+      
+  }
+
+  .header__nav-list {
+      color:  black;
+      font-family: var(--rob);
+      font-weight: 400;
+      font-size: 16px;
+      margin-right: 20px;
+      
+  }
+
+  .logo {
+      width: 189px;
+      height: 40px;
+  }
+
+  .header__nav-input {
+      width: 230px;
+      height: 60px;
+      border-radius: 50px 0px 0px 50px;
+      border: none;
+      outline: none;
+      background: white;
+      padding: 20px;
+      
+  }
+
+  .redact-mr {
+      margin-right: 60px;
+  }
+
+  .header__nav-button {
+      width: 102px;
+      height: 60px;
+      background: black;
+      color: white;
+      border-radius: 0px 50px 50px 0px;
+      border: none;
+      padding: 20px;
+      transition: 0.3s linear;
+      font-family: var(--rob);
+      font-weight: 400;
+      font-size: 16px;
+  }
+
+  .header__nav-button:hover{
+      background: white;
+      color: black;
+      transition: 0.3s linear;
+  }
+
+  
+
+  .header__nav-content-input {
+      flex-wrap: wrap;
+  }
+
+ .header__banner {
+     width: 380px;
+     height: 502px;
+     position: absolute;
+     margin-top: 91px;
+     
+ }
+
+ .header__banner-title {
+     width: 316px;
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 60px;
+ }
+
+ .herder__banner-text {
+     margin-top: 15px;
+     width: 342px;
+     color:  black;
+     font-family: var(--rob);
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 30px;
+ }
+
+ .redact-mt {
+     margin-top: 14px;
+ }
+
+ .redact_margin-t {
+     margin-top: 14px;
+ }
+
+.header__minitext {
+    margin-top: 10px;
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header__img {
+    margin-top: 42px;
+    
+}
+
+.header__img-img {
+    margin-left: 25px;
+}
+
+/* header finished */
+
+.banner {
+    
+    background: #EFEFEF;
+    height: 116px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: minmax(200px, max-content);
+    grid-gap: 40px;
+      
+}
+
+.emblem {
+    margin-top: 39px;
+    width: 200px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emblem__img {
+    width: 41px;
+    height: 39px;
+}
+
+.emblem__span {
+    text-align: center;
+    margin: 12px auto;
+}
+
+.emblem__title {
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 12px;  
+}
+
+.emblem__text {
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.text {
+    text-transform: uppercase;
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 79px;
+    margin-bottom: 37px;
+
+}
+
+.Cet_Cash {
+    height: 1400px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: minmax(600px, max-content);
+    grid-gap: 40px;
+    
+}
+
+.Cet_Cash-gid {
+    position: relative;
+    grid-column: span 1;
+    grid-row: span 1;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+   
+}
+
+.Cet_Cash-img {
+    position: absolute;
+    z-index: -1;
+    
+
+}
+
+.Cet_Cash-title {
+    width: 493px;
+    padding-top: 42px;
+    margin-left: 40px;
+    color:  black;
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 55px;
+
+}
+
+.redact-widht {
+    width: 407px;
+}
+
+.redact-widht2 {
+    width: 365px;
+}
+
+.redact-widht3 {
+    width: 427px;
+}
+
+.redact-widht4 {
+    width: 394px;
+}
+
+.Cet_Cash-link {
+    margin-top: 256px;
+    width: 175px;
+    height: 64px;
+    margin-left: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    transition: 0.3s linear;
+    font-family: var(--rob);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.redact-mt2 {
+    margin-top: 320px;
+}
+
+
+
+.Cet_Cash-link:hover {
+    background: white;
+    color: black;
+    transition: 0.3s linear;
+}
+
+.logotip {
+    height: 492px;
+    background: #EFEFEF;
+    
+}
+
+.logotip__text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: var(--rob);
+    padding-top: 79px;
+}
+
+.logotip__grid {
+    height: 332px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(340px,150px max-content);
+    grid-gap: 20px 65px;
+}
+
+.VisaCard {
+    height: 892px;
+    margin-top: 79px;
+    
+}
+
+.VisaCard__btn {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: var(--rob);
+    text-transform: uppercase;
+}
+
+
+.VisaCard__img {
+    width: 530px;
+    height: 730px;
+    background-image: url(../img/Viza\ 1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 77px;
+}
+
+.VisaCard__img2 {
+    width: 530px;
+    height: 730px;
+    background-image: url(../img/Viza\ 2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 77px;
+}
+
+
+.VisaCard__title {
+    font-weight: bold;
+    font-size: 55px;
+    font-family: var(--rob);
+    padding-top: 36px;
+    
+}
+
+.redact-color {
+    color: white;
+}
+
+.Empover {
+    height: 484px;
+    background: #FCD0BA;
+    margin-top: 100px;
+}
+
+.Empover__title {
+    width: 963px;
+    font-weight: 700;
+    font-size: 80px;
+    font-family: var(--rob);
+    text-align: center;
+    line-height: 108px;
+    padding-top: 82px;
+}
+
+.redact_margin-t2 {
+    margin-top: 46px;
+}
+
+.footer {
+   background: black;
+   height: 627px;
+}
+
+.fooetr__grid {
+    width: 285px;
+    height: 219px;
+
+}
+
+.fooetr__grid2 {
+    width: 285px;
+    height: 219px;
+    line-height: 40px;
+    
+    
+}
+
+.footer__link {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: var(--rob);
+    transition: 0.3s linear;
+}
+
+.footer__link:hover {
+    font-size: 20px;
+    transition: 0.3s linear;
+}
+
+.logo2 {
+    width: 70px;
+    height: 57px;
+    margin-top: 41px;
+}
+
+.footer-text {
+    width: 254px;
+    color: #B3B3B3;
+    font-weight: 400;
+    font-family: var(--rob);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 24px;
+}
+
+
+.footer__line {
+    width: 1110px;
+    height: 1px;
+    background: #4D4D4D;
+    margin-top: 137px;
+}
+
+.footer__text {
+    color:  #B3B3B3;;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: var(--rob);
+
+}
+
+.footer__info {
+    margin-top: 39px;
+   
+}
+
